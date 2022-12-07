@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Taking you to home directory"
+cd /home
