@@ -1,1 +1,2 @@
-echo "$USERNAME"
+#!/bin/bash
+id -un

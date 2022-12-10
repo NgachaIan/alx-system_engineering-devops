@@ -1,1 +1,2 @@
-$groups root
+#!/bin/bash
+groups
