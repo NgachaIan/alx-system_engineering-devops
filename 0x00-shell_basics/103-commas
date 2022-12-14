@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -la -m -p
+ls -a | sort -f | awk -F/ '{print $1"/,"}' | sed 's/^\.$/.\n/;s/^\.\.$/..\n/;s/,$/\n/'
+

@@ -1,2 +1,13 @@
 #!/bin/bash
-ls -la . .. /boot
+
+# Print the contents of the current directory, including hidden files, in a long format
+ls -la
+
+# Print the contents of the parent of the working directory, including hidden files, in a long format
+cd ..
+ls -la
+
+# Print the contents of the /boot directory, including hidden files, in a long format
+cd /boot
+ls -la
+
